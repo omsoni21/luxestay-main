@@ -1,0 +1,160 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Luxury Hotel Booking System - Premium Color Palette
+   * Tailwind CSS theme with deep blacks, charcoal grays, ivory whites, and royal gold accents
+   */
+  :root {
+    /* Neutral colors */
+    --background: 0 0% 99%;
+    --foreground: 15 4% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 15 4% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 15 4% 15%;
+
+    /* Primary - Deep elegant black/charcoal */
+    --primary: 15 4% 15%;
+    --primary-foreground: 45 100% 92%;
+
+    /* Secondary - Charcoal gray */
+    --secondary: 210 10% 25%;
+    --secondary-foreground: 45 100% 92%;
+
+    /* Accent - Royal gold */
+    --accent: 45 100% 50%;
+    --accent-foreground: 15 4% 15%;
+
+    /* Muted - Light gray for backgrounds */
+    --muted: 0 0% 95%;
+    --muted-foreground: 210 10% 45%;
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders and inputs */
+    --border: 210 10% 85%;
+    --input: 0 0% 98%;
+    --ring: 45 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar colors */
+    --sidebar-background: 15 4% 15%;
+    --sidebar-foreground: 45 100% 92%;
+    --sidebar-primary: 45 100% 50%;
+    --sidebar-primary-foreground: 15 4% 15%;
+    --sidebar-accent: 45 100% 50%;
+    --sidebar-accent-foreground: 15 4% 15%;
+    --sidebar-border: 210 10% 35%;
+    --sidebar-ring: 45 100% 50%;
+  }
+
+  .dark {
+    --background: 15 4% 10%;
+    --foreground: 45 100% 92%;
+
+    --card: 15 4% 18%;
+    --card-foreground: 45 100% 92%;
+
+    --popover: 15 4% 18%;
+    --popover-foreground: 45 100% 92%;
+
+    --primary: 45 100% 92%;
+    --primary-foreground: 15 4% 15%;
+
+    --secondary: 210 10% 35%;
+    --secondary-foreground: 45 100% 92%;
+
+    --accent: 45 100% 50%;
+    --accent-foreground: 15 4% 10%;
+
+    --muted: 210 10% 30%;
+    --muted-foreground: 0 0% 60%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 15 4% 10%;
+
+    --border: 210 10% 25%;
+    --input: 15 4% 25%;
+    --ring: 45 100% 50%;
+
+    --sidebar-background: 15 4% 10%;
+    --sidebar-foreground: 45 100% 92%;
+    --sidebar-primary: 45 100% 50%;
+    --sidebar-primary-foreground: 15 4% 10%;
+    --sidebar-accent: 45 100% 50%;
+    --sidebar-accent-foreground: 15 4% 10%;
+    --sidebar-border: 210 10% 20%;
+    --sidebar-ring: 45 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+@layer components {
+  /* Luxury glass morphism effect */
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-lg border border-white/20;
+  }
+
+  /* Soft shadow for premium cards */
+  .card-shadow {
+    @apply shadow-lg shadow-black/5;
+  }
+
+  /* Gold accent hover state */
+  .hover-gold {
+    @apply hover:text-accent transition-colors;
+  }
+
+  /* Premium button styles */
+  .btn-gold {
+    @apply bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-300;
+  }
+
+  .btn-outline-gold {
+    @apply border border-accent text-accent hover:bg-accent/10 transition-all duration-300;
+  }
+
+  /* Luxury gradient backgrounds */
+  .gradient-luxury {
+    @apply bg-gradient-to-br from-primary via-primary/95 to-primary;
+  }
+
+  .gradient-gold {
+    @apply bg-gradient-to-r from-accent/20 to-accent/10;
+  }
+}
