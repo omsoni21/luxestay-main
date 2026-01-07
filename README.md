@@ -1,51 +1,65 @@
-🏨 LuxeStay — Luxury Hotel Booking UI (Demo)
+# 🏨 LuxeStay — Luxury Hotel Booking UI (Demo)
 
-LuxeStay is a lightweight demo frontend for a luxury hotel booking platform.
-It showcases modern UI components, guest & admin flows, and a simple client-side authentication system built for demos and prototypes.
+**LuxeStay** is a premium luxury hotel booking UI demo inspired by modern 5-star hospitality experiences.  
+The project showcases elegant layouts, smooth guest journeys, and admin workflows commonly found in high-end hotel platforms.
 
-This project is frontend-only and intentionally avoids backend dependencies, making it ideal for UI showcases, interviews, hackathons, and rapid demos.
+Designed with attention to detail, LuxeStay reflects the feel of a real luxury hotel—featuring beautifully crafted home pages, room listings, special offers, and a refined authentication experience for guests and administrators.
 
-✨ Features
+This project is **frontend-only**, built for **UI showcases, portfolios, interviews, hackathons, and demos**, with no backend dependencies.
 
-⚛️ React 18 + TypeScript single-page application
+---
 
-⚡ Vite for fast development and builds
+## 🏨 Hotel Experience Overview
 
-🎨 Tailwind CSS for a modern luxury UI
+LuxeStay represents a fictional luxury hotel brand offering:
+- Elegant and welcoming home pages
+- Premium room showcases with modern aesthetics
+- Special offers and featured sections
+- Informative About and Contact pages
+- Secure and simple guest & admin login experience
 
-🔐 Client-side authentication using localStorage
+The UI is designed to feel **calm, premium, and trustworthy**, similar to real-world luxury hotel booking platforms.
 
-👥 Separate Guest and Admin flows
+---
 
-📱 Fully responsive layout
+## 🖼️ Application Screenshots
 
-🚀 Netlify-ready deployment configuration
+![Home](home.png)
+![Home Variant A](homea.png)
+![Home Variant B](homeb.png)
+![Rooms](room.png)
+![Special Offers](Spacial.png)
+![About Us](about.png)
+![Contact](contact.png)
+![Admin Login](Admin%20login.png)
+![Footer](Footer.png)
 
-🧪 Unit testing with Vitest
+---
 
-🛠 Tech Stack
+## ✨ Key Features
 
-Frontend: React 18, TypeScript
+- ⚛️ React 18 + TypeScript single-page application  
+- ⚡ Vite for fast development and optimized builds  
+- 🎨 Tailwind CSS for a luxury, modern UI  
+- 🔐 Client-side authentication using localStorage  
+- 👥 Guest & Admin user flows  
+- 📱 Fully responsive across devices  
+- 🚀 Netlify-ready deployment  
+- 🧪 Testing support with Vitest  
 
-Bundler: Vite
+---
 
-Styling: Tailwind CSS
+## 🛠 Tech Stack
 
-Package Manager: pnpm
+- **Frontend:** React, TypeScript  
+- **Bundler:** Vite  
+- **Styling:** Tailwind CSS  
+- **Package Manager:** pnpm  
+- **Testing:** Vitest  
+- **Deployment:** Netlify  
 
-Testing: Vitest
+---
 
-Deployment: Netlify
-
-📂 Project Structure
-luxestay/
-├── client/
-│   ├── pages/          # Guest & Admin pages
-│   ├── components/     # Reusable UI components
-│   ├── utils/
-│   │   └── auth.ts     # Demo authentication logic
-│   └── main.tsx        # App entry point
-├── public/
-├── netlify.toml
-├── package.json
-└── README.md
+### ⚠️ Note
+Authentication is implemented only for demo purposes using localStorage.  
+Do **not** use this approach in production applications.
