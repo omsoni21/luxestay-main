@@ -1,4 +1,4 @@
-# 🏨 LuxeStay — Luxury Hotel Booking UI (Demo)
+# 🏨 LuxeStay — Luxury Hotel Booking UI 
 
 **LuxeStay** is a premium luxury hotel booking UI demo inspired by modern 5-star hospitality experiences.  
 The project showcases elegant layouts, smooth guest journeys, and admin workflows commonly found in high-end hotel platforms.
