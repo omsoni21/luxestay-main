@@ -7,6 +7,7 @@ Designed with attention to detail, LuxeStay reflects the feel of a real luxury h
 
 This project is **frontend-only**, built for **UI showcases, portfolios, interviews, hackathons, and demos**, with no backend dependencies.
 
+
 ---
 
 ## 🏨 Hotel Experience Overview
