@@ -37,7 +37,7 @@ The UI is designed to feel **calm, premium, and trustworthy**, similar to real-w
 
 ---
 
-## ✨ Key Features 
+## ✨ Key Features    
 
 - ⚛️ React 18 + TypeScript single-page application  
 - ⚡ Vite for fast development and optimized builds  
